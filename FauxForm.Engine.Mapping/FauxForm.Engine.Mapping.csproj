@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FauxForm.Dtos\FauxForm.Engine.Dtos.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Interfaces.Mapping\FauxForm.Engine.Interfaces.Mapping.csproj" />
+    <ProjectReference Include="..\FauxForm.Models\FauxForm.Engine.Models.csproj" />
+  </ItemGroup>
+
+</Project>

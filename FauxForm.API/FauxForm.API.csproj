@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FauxForm.Dtos\FauxForm.Engine.Dtos.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Form\FauxForm.Engine.Repository.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Interfaces\FauxForm.Engine.Interfaces.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Mapping\FauxForm.Engine.Mapping.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Services\FauxForm.Engine.Services.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Validation\FauxForm.Engine.Validation.csproj" />
+    <ProjectReference Include="..\FauxForm.Models\FauxForm.Engine.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructure\NewFolder\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FauxForm.Dtos\FauxForm.Engine.Dtos.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Interfaces.Mapping\FauxForm.Engine.Interfaces.Mapping.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Interfaces.Respository\FauxForm.Engine.Interfaces.Respository.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Interfaces.Services\FauxForm.Engine.Interfaces.Services.csproj" />
+    <ProjectReference Include="..\FauxForm.Engine.Interfaces.Validation\FauxForm.Engine.Interfaces.Validation.csproj" />
+  </ItemGroup>
+
+</Project>

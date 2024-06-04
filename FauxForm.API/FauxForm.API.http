@@ -1,0 +1,6 @@
+@FauxForm.API_HostAddress = http://localhost:5224
+
+GET {{FauxForm.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
